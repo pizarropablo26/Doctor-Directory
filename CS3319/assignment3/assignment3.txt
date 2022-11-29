@@ -1,0 +1,53 @@
+View this textfile for more information about the files
+
+- medcare.php
+	THIS IS THE WEBSITE ITSELF. To run the website, run this file though URL
+	http://cs3319.gaul.csd.uwo.ca/vm305/a3jack/medcare.php
+
+List all the information about the doctors.  
+- get doctors.php 
+
+Allow the user to select one of the specialties 
+- selectspecialty.php
+	this file fetch data from speciality table of the database and feed to the website
+- getspeciality.php
+	this file output data into tables
+
+Insert a new doctor.
+- adddoctor.php
+	this file add a doctor to the database
+- selecthospital.php
+	 this file fetch hospital data from the database and feed to the website 
+
+Delete an existing doctor. 
+- selectdoctor.php
+	this allow fetch existing doctor information
+- confirm_rmdoctor.php
+	This file prompt the user a confirmation message to delete a doctor
+- rmdoctor.php
+	This file remove the doctor from the database
+
+Assign a doctor to a patient. 
+- selectdoctor.php
+	this allow fetch existing doctor information
+- assigndoctor.php
+	THIS FILE assign a doctor to a patient
+
+
+Allow the user to select a doctor and see the first and last name and ohip number of any patient treated by that doctor. 
+- selectdoctor.php
+	this allow fetch existing doctor information
+- selectpatient.php
+	This file fetch existing patient information
+- selecttreatinginfo.php
+	This file prompt for existing patient doctor relationship
+
+Allow the user to select a hospital and display a hospital name, city, province, number of beds, and head doctor first and last name and then list all the doctors (first and last name) that work at that hospital.
+- selecthospital.php
+	 this file fetch hospital data from the database and feed to the website 
+- gethospital
+	 This file display hospital information and doctors who works there
+
+Allow the user to select a hospital and change (UPDATE) the number of beds at that hospital.
+- updatehos.php
+	this file update the hospital bed number

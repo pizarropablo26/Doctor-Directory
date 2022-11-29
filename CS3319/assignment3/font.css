@@ -1,0 +1,36 @@
+/*
+	Museum Styles
+*/
+
+head{
+        background-color: #16C2D5
+	font-family: 'Serif';
+        color: white;
+}
+
+body {
+	font-family: 'Serif';
+	font-size: 20px;
+	background-color: #015D67;
+	color: white;
+}
+h1 {
+	font-size: 40px;
+}
+select {
+		font-family: 'Charmonman', cursive;
+		background-color: orange;
+		color: #469EEF 93.92%;
+}
+form {
+	font-family: 'Serif';
+        font-size: 20px;
+        background-color: #527C88 60%;
+        color: white;
+}
+table, th, td {
+	vertical-align: top;
+}
+img {
+	vertical-align: top;	
+}

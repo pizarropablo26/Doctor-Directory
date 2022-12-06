@@ -3,7 +3,7 @@
 <?php
 $dbhost = "localhost";
 $dbuser= "root";
-$dbpass = "cs3319";
+$dbpass = " ";
 $dbname = "vetoffice";
 $connection = mysqli_connect($dbhost, $dbuser,$dbpass,$dbname);
 if (mysqli_connect_errno()) {

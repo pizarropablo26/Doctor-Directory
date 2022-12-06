@@ -1,8 +1,8 @@
 <?php
 $dbhost = "localhost";
 $dbuser= "root";
-$dbpass = "cs3319";
-$dbname = "assign2db";
+$dbpass = " ";
+$dbname = " ";
 $connection = mysqli_connect($dbhost, $dbuser,$dbpass,$dbname);
 if (mysqli_connect_errno()) {
      die("database connection failed :" .
